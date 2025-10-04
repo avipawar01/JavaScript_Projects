@@ -1,0 +1,65 @@
+
+// Index
+
+.hero-banner {
+
+    overflow-x: hidden;
+    overflow-y: hidden;
+
+    div {
+
+        width: 100vw;
+        height: 350px;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+}
+
+
+.category {
+    margin: 50px 50px;
+
+    h1 {
+
+    }
+
+    .category-box {
+        display: flex;
+        flex-direction: row;
+
+        
+
+        .category-info {
+            display: flex;
+            flex-direction: column ;
+
+            .title {
+                font-size: 18px;
+            }
+    
+            .img-box {
+                
+                
+                img {
+                    width: 20%;
+                    height: 100%;
+                }
+            }
+    
+            .shop {
+                a {
+    
+                }
+    
+                img {
+                    width: 20%;
+                }
+            }
+        }
+
+    }
+}
